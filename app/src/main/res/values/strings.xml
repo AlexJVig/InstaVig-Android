@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">InstaVig-Android</string>
+    <string name="login_button">Login</string>
+    <string name="sign_up_button">Sign Up</string>
+</resources>
