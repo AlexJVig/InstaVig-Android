@@ -1,154 +1,425 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:2:1-21:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/9101b4e0cb64f347125d0aec761c53aa/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/e941883cd2bbdbe901b582d7d016875c/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/df9602f070c6fcfc03a5a30fbdbef767/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/f14a16bf13f047880e0340d7dfc79615/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bfadcfaf1e285d5fea21f0ed6caf801d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/58483abdf58266a1e85c90d9c62cac43/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/cdd9b3d548e46edc42c4e1296e2bbc25/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/975b0f98dee791568e840b6f10168ca4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/648da43b9e2dc4f669966dc4bc93ae57/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/1d7f396bfdb478b512852b08ce33642d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/1adc9a33e751f8450089c640f99a738d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/d07beda2d20187bed2cb74059a8744e5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7ae141f35397022b19e454aeeb40adf5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2509e7e360910895e72f301f1edb34f1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/74191ab3521fe4a40f30b0c13a9e670d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/9397f4c17d92610db93abee5d9edd3c0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2fda0b047e9400cb2f7d925c7bb4fece/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/c27cd7e0e483437a06551194895e1b05/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2cd7d526458b24cdce23d290dc7c7b07/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/720267a6f46a34c41a368e0891124048/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/40e7b02c89cf61ccdba138dff9197bfb/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/830a09340e7b5459ffe5c04cacaf0ad2/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/dc442423c89068ddf3fb48ae59c73429/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/af328757ad11148ad3c4fc67e0a30530/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/9c4477cb3fc6adbc40542c45dc008ae7/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/9cc4a8dcb418f13672ff53b9f2ded1ee/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/b55051bf81ce8e4c4ed95595f55b071f/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/d55a26ef77ea54bf8c777fd7a362db3a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2398a7c73282c4c08c8a4d319b3b42e3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/10ba20cacb4c12feae4457900be0b173/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:18.1.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5c1843544fe608fdf7d9cc6c37058408/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/41dfc23f99b572c20cc642131ab9cbd7/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/a95f092cd7727ff01565cfcc7922f092/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/68a3cf4f0aded3560fa426a1a47e6a03/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/93ebc2c3bfb8ffafbb5825403bd1c866/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/0a9b2e81489912da77b8fe4a295de925/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/cc94d2dddb5bc828161d0023a9d8e453/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/00027ac253ed3069b44e604c8ebc3174/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/b65c6cbdae083d4b54d7977404295be7/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/596f9b67da515d69a2de5f09d1dda7e3/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2d07c9e2c93c3cad55c1af7b1ff4ec0b/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/80e17cd3a37535006c32444dcc858bad/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7eb50ae9c249cad07b00517a24739069/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7bbc2bd8fe3ae43df92a221c6bd36136/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/442bdedf279cb50eadf475d13d281086/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/992cfdb38ff63caa3a4dd6c4861b7d2d/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/ff87cce25b0d2bcb82336e40cd862032/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/537cb5dc31471ef6e915ff7b892f44c8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5fe933e17d05763b9950aad94943c5e8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/d9295dac3d0d1b4bd91176e8b85b9a5f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/3ff19bea489852259da4c2854c909e48/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/0b7552e4721b64f8205d28652fcaad88/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/99574d780646785265b7cee9fe065582/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7132cba0afb404effc449784068e39aa/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/b872017587b5372a17fd83f2636faa47/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/0231d47e3b5e18591dad533bbe6cf801/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5e1a09383690254094b0073267a778f9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/9b5f0ab9a9be86f905a052c0761f4ed4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/631ea3c0748695c41f9e14299190fea0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/55a48dfa138b726992708379b164e04b/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/6b7cec1e56dccf7b42a3f33e5658ae55/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/118e583e007d16af9f05f1effa3eabe2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2ee089234938cc894d6de65187305a1a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/d7a3f31bf474f9f77182099bde6812ba/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/12fee9613397f3321bc00471ec958dc0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/973af1f5a04044802d79bdc2d020608f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/9042fd8ec81a12ccc07b61d16a51a6f5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/ed102075d11e975b8aa193923894d7bd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/da3b8096fd8b347848b9ce100493c1ff/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/f5359bbe072c153172c3763a46d49d45/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/48e7d44006954d6e2954269053a3aa61/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-21:12
 	package
-		ADDED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:3:5-43
-		INJECTED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:3:5-43
+		INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml
-		ADDED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:2:1-21:12
-		INJECTED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml
-		ADDED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:2:1-21:12
-		INJECTED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:5:5-19:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/e941883cd2bbdbe901b582d7d016875c/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/e941883cd2bbdbe901b582d7d016875c/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/9397f4c17d92610db93abee5d9edd3c0/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/9397f4c17d92610db93abee5d9edd3c0/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2fda0b047e9400cb2f7d925c7bb4fece/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2fda0b047e9400cb2f7d925c7bb4fece/AndroidManifest.xml:22:5-23:19
+ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2398a7c73282c4c08c8a4d319b3b42e3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2398a7c73282c4c08c8a4d319b3b42e3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/10ba20cacb4c12feae4457900be0b173/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/10ba20cacb4c12feae4457900be0b173/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:18.1.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5c1843544fe608fdf7d9cc6c37058408/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:18.1.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5c1843544fe608fdf7d9cc6c37058408/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/41dfc23f99b572c20cc642131ab9cbd7/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/41dfc23f99b572c20cc642131ab9cbd7/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/a95f092cd7727ff01565cfcc7922f092/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/a95f092cd7727ff01565cfcc7922f092/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/68a3cf4f0aded3560fa426a1a47e6a03/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/68a3cf4f0aded3560fa426a1a47e6a03/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/93ebc2c3bfb8ffafbb5825403bd1c866/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/93ebc2c3bfb8ffafbb5825403bd1c866/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/0a9b2e81489912da77b8fe4a295de925/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/0a9b2e81489912da77b8fe4a295de925/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/cc94d2dddb5bc828161d0023a9d8e453/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/cc94d2dddb5bc828161d0023a9d8e453/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/00027ac253ed3069b44e604c8ebc3174/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/00027ac253ed3069b44e604c8ebc3174/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/b65c6cbdae083d4b54d7977404295be7/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/b65c6cbdae083d4b54d7977404295be7/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/596f9b67da515d69a2de5f09d1dda7e3/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/596f9b67da515d69a2de5f09d1dda7e3/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2d07c9e2c93c3cad55c1af7b1ff4ec0b/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2d07c9e2c93c3cad55c1af7b1ff4ec0b/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/80e17cd3a37535006c32444dcc858bad/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/80e17cd3a37535006c32444dcc858bad/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7eb50ae9c249cad07b00517a24739069/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7eb50ae9c249cad07b00517a24739069/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7bbc2bd8fe3ae43df92a221c6bd36136/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7bbc2bd8fe3ae43df92a221c6bd36136/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/442bdedf279cb50eadf475d13d281086/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/442bdedf279cb50eadf475d13d281086/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/992cfdb38ff63caa3a4dd6c4861b7d2d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/992cfdb38ff63caa3a4dd6c4861b7d2d/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/55a48dfa138b726992708379b164e04b/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/55a48dfa138b726992708379b164e04b/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/6b7cec1e56dccf7b42a3f33e5658ae55/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/6b7cec1e56dccf7b42a3f33e5658ae55/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/9397f4c17d92610db93abee5d9edd3c0/AndroidManifest.xml:22:18-91
+		ADDED from [androidx.core:core:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/55a48dfa138b726992708379b164e04b/AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:11:9-40
 activity#com.example.instavig_android.MainActivity
-ADDED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:12:9-18:20
+ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:12:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:16:27-74
 uses-sdk
-INJECTED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml
-INJECTED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/9101b4e0cb64f347125d0aec761c53aa/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/9101b4e0cb64f347125d0aec761c53aa/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/e941883cd2bbdbe901b582d7d016875c/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/e941883cd2bbdbe901b582d7d016875c/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/df9602f070c6fcfc03a5a30fbdbef767/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/df9602f070c6fcfc03a5a30fbdbef767/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/f14a16bf13f047880e0340d7dfc79615/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/f14a16bf13f047880e0340d7dfc79615/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bfadcfaf1e285d5fea21f0ed6caf801d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bfadcfaf1e285d5fea21f0ed6caf801d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/58483abdf58266a1e85c90d9c62cac43/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/58483abdf58266a1e85c90d9c62cac43/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/cdd9b3d548e46edc42c4e1296e2bbc25/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/cdd9b3d548e46edc42c4e1296e2bbc25/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/975b0f98dee791568e840b6f10168ca4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/975b0f98dee791568e840b6f10168ca4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/648da43b9e2dc4f669966dc4bc93ae57/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/648da43b9e2dc4f669966dc4bc93ae57/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/1d7f396bfdb478b512852b08ce33642d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/1d7f396bfdb478b512852b08ce33642d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/1adc9a33e751f8450089c640f99a738d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/1adc9a33e751f8450089c640f99a738d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/d07beda2d20187bed2cb74059a8744e5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/d07beda2d20187bed2cb74059a8744e5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7ae141f35397022b19e454aeeb40adf5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7ae141f35397022b19e454aeeb40adf5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2509e7e360910895e72f301f1edb34f1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2509e7e360910895e72f301f1edb34f1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/74191ab3521fe4a40f30b0c13a9e670d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/74191ab3521fe4a40f30b0c13a9e670d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/9397f4c17d92610db93abee5d9edd3c0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/9397f4c17d92610db93abee5d9edd3c0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2fda0b047e9400cb2f7d925c7bb4fece/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2fda0b047e9400cb2f7d925c7bb4fece/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/c27cd7e0e483437a06551194895e1b05/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/c27cd7e0e483437a06551194895e1b05/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2cd7d526458b24cdce23d290dc7c7b07/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2cd7d526458b24cdce23d290dc7c7b07/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/720267a6f46a34c41a368e0891124048/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/720267a6f46a34c41a368e0891124048/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/40e7b02c89cf61ccdba138dff9197bfb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/40e7b02c89cf61ccdba138dff9197bfb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/830a09340e7b5459ffe5c04cacaf0ad2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/830a09340e7b5459ffe5c04cacaf0ad2/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/dc442423c89068ddf3fb48ae59c73429/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/dc442423c89068ddf3fb48ae59c73429/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/af328757ad11148ad3c4fc67e0a30530/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/af328757ad11148ad3c4fc67e0a30530/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/9c4477cb3fc6adbc40542c45dc008ae7/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/9c4477cb3fc6adbc40542c45dc008ae7/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/9cc4a8dcb418f13672ff53b9f2ded1ee/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/9cc4a8dcb418f13672ff53b9f2ded1ee/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/b55051bf81ce8e4c4ed95595f55b071f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/b55051bf81ce8e4c4ed95595f55b071f/AndroidManifest.xml:20:5-44
-INJECTED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml
-INJECTED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml
+INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/d55a26ef77ea54bf8c777fd7a362db3a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/d55a26ef77ea54bf8c777fd7a362db3a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2398a7c73282c4c08c8a4d319b3b42e3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2398a7c73282c4c08c8a4d319b3b42e3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/10ba20cacb4c12feae4457900be0b173/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/10ba20cacb4c12feae4457900be0b173/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:18.1.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5c1843544fe608fdf7d9cc6c37058408/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:18.1.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5c1843544fe608fdf7d9cc6c37058408/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/41dfc23f99b572c20cc642131ab9cbd7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/41dfc23f99b572c20cc642131ab9cbd7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/a95f092cd7727ff01565cfcc7922f092/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/a95f092cd7727ff01565cfcc7922f092/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/68a3cf4f0aded3560fa426a1a47e6a03/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/68a3cf4f0aded3560fa426a1a47e6a03/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/93ebc2c3bfb8ffafbb5825403bd1c866/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/93ebc2c3bfb8ffafbb5825403bd1c866/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/0a9b2e81489912da77b8fe4a295de925/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/0a9b2e81489912da77b8fe4a295de925/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/cc94d2dddb5bc828161d0023a9d8e453/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/cc94d2dddb5bc828161d0023a9d8e453/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/00027ac253ed3069b44e604c8ebc3174/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/00027ac253ed3069b44e604c8ebc3174/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/b65c6cbdae083d4b54d7977404295be7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/b65c6cbdae083d4b54d7977404295be7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/596f9b67da515d69a2de5f09d1dda7e3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/596f9b67da515d69a2de5f09d1dda7e3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2d07c9e2c93c3cad55c1af7b1ff4ec0b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2d07c9e2c93c3cad55c1af7b1ff4ec0b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/80e17cd3a37535006c32444dcc858bad/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/80e17cd3a37535006c32444dcc858bad/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7eb50ae9c249cad07b00517a24739069/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7eb50ae9c249cad07b00517a24739069/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7bbc2bd8fe3ae43df92a221c6bd36136/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7bbc2bd8fe3ae43df92a221c6bd36136/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/442bdedf279cb50eadf475d13d281086/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/442bdedf279cb50eadf475d13d281086/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/992cfdb38ff63caa3a4dd6c4861b7d2d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/992cfdb38ff63caa3a4dd6c4861b7d2d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/ff87cce25b0d2bcb82336e40cd862032/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/ff87cce25b0d2bcb82336e40cd862032/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/537cb5dc31471ef6e915ff7b892f44c8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/537cb5dc31471ef6e915ff7b892f44c8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5fe933e17d05763b9950aad94943c5e8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5fe933e17d05763b9950aad94943c5e8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/d9295dac3d0d1b4bd91176e8b85b9a5f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/d9295dac3d0d1b4bd91176e8b85b9a5f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/3ff19bea489852259da4c2854c909e48/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/3ff19bea489852259da4c2854c909e48/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/0b7552e4721b64f8205d28652fcaad88/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/0b7552e4721b64f8205d28652fcaad88/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/99574d780646785265b7cee9fe065582/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/99574d780646785265b7cee9fe065582/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7132cba0afb404effc449784068e39aa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7132cba0afb404effc449784068e39aa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/b872017587b5372a17fd83f2636faa47/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/b872017587b5372a17fd83f2636faa47/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/0231d47e3b5e18591dad533bbe6cf801/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/0231d47e3b5e18591dad533bbe6cf801/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5e1a09383690254094b0073267a778f9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5e1a09383690254094b0073267a778f9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/9b5f0ab9a9be86f905a052c0761f4ed4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/9b5f0ab9a9be86f905a052c0761f4ed4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/631ea3c0748695c41f9e14299190fea0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/631ea3c0748695c41f9e14299190fea0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/55a48dfa138b726992708379b164e04b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/55a48dfa138b726992708379b164e04b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/6b7cec1e56dccf7b42a3f33e5658ae55/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/6b7cec1e56dccf7b42a3f33e5658ae55/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/118e583e007d16af9f05f1effa3eabe2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/118e583e007d16af9f05f1effa3eabe2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2ee089234938cc894d6de65187305a1a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2ee089234938cc894d6de65187305a1a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/d7a3f31bf474f9f77182099bde6812ba/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/d7a3f31bf474f9f77182099bde6812ba/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/12fee9613397f3321bc00471ec958dc0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/12fee9613397f3321bc00471ec958dc0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/973af1f5a04044802d79bdc2d020608f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/973af1f5a04044802d79bdc2d020608f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/9042fd8ec81a12ccc07b61d16a51a6f5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/9042fd8ec81a12ccc07b61d16a51a6f5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/ed102075d11e975b8aa193923894d7bd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/ed102075d11e975b8aa193923894d7bd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/da3b8096fd8b347848b9ce100493c1ff/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/da3b8096fd8b347848b9ce100493c1ff/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/f5359bbe072c153172c3763a46d49d45/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/f5359bbe072c153172c3763a46d49d45/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/48e7d44006954d6e2954269053a3aa61/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/48e7d44006954d6e2954269053a3aa61/AndroidManifest.xml:20:5-44
+INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml
-		ADDED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml
-		ADDED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/alexvig/Projects/InstaVigAndroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:18.1.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5c1843544fe608fdf7d9cc6c37058408/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:18.1.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5c1843544fe608fdf7d9cc6c37058408/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:18.1.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5c1843544fe608fdf7d9cc6c37058408/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:18.1.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5c1843544fe608fdf7d9cc6c37058408/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:18.1.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5c1843544fe608fdf7d9cc6c37058408/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:18.1.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5c1843544fe608fdf7d9cc6c37058408/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:18.1.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5c1843544fe608fdf7d9cc6c37058408/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:18.1.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5c1843544fe608fdf7d9cc6c37058408/AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:18.1.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5c1843544fe608fdf7d9cc6c37058408/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/68a3cf4f0aded3560fa426a1a47e6a03/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/68a3cf4f0aded3560fa426a1a47e6a03/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:18.1.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5c1843544fe608fdf7d9cc6c37058408/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:18.1.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5c1843544fe608fdf7d9cc6c37058408/AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:18.1.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5c1843544fe608fdf7d9cc6c37058408/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:18.1.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5c1843544fe608fdf7d9cc6c37058408/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:18.1.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5c1843544fe608fdf7d9cc6c37058408/AndroidManifest.xml:37:17-109
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/68a3cf4f0aded3560fa426a1a47e6a03/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/596f9b67da515d69a2de5f09d1dda7e3/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/596f9b67da515d69a2de5f09d1dda7e3/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2d07c9e2c93c3cad55c1af7b1ff4ec0b/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2d07c9e2c93c3cad55c1af7b1ff4ec0b/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/68a3cf4f0aded3560fa426a1a47e6a03/AndroidManifest.xml:22:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/68a3cf4f0aded3560fa426a1a47e6a03/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/596f9b67da515d69a2de5f09d1dda7e3/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/596f9b67da515d69a2de5f09d1dda7e3/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2d07c9e2c93c3cad55c1af7b1ff4ec0b/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2d07c9e2c93c3cad55c1af7b1ff4ec0b/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/68a3cf4f0aded3560fa426a1a47e6a03/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/68a3cf4f0aded3560fa426a1a47e6a03/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/596f9b67da515d69a2de5f09d1dda7e3/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/596f9b67da515d69a2de5f09d1dda7e3/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2d07c9e2c93c3cad55c1af7b1ff4ec0b/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2d07c9e2c93c3cad55c1af7b1ff4ec0b/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/68a3cf4f0aded3560fa426a1a47e6a03/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/68a3cf4f0aded3560fa426a1a47e6a03/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/68a3cf4f0aded3560fa426a1a47e6a03/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/68a3cf4f0aded3560fa426a1a47e6a03/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/bc4e6d12bf9233b754f3a403e73d1c34/AndroidManifest.xml:42:25-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/0a9b2e81489912da77b8fe4a295de925/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/0a9b2e81489912da77b8fe4a295de925/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/0a9b2e81489912da77b8fe4a295de925/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/0a9b2e81489912da77b8fe4a295de925/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/cc94d2dddb5bc828161d0023a9d8e453/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/cc94d2dddb5bc828161d0023a9d8e453/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/cc94d2dddb5bc828161d0023a9d8e453/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/cc94d2dddb5bc828161d0023a9d8e453/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/cc94d2dddb5bc828161d0023a9d8e453/AndroidManifest.xml:13:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/596f9b67da515d69a2de5f09d1dda7e3/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/596f9b67da515d69a2de5f09d1dda7e3/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2d07c9e2c93c3cad55c1af7b1ff4ec0b/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2d07c9e2c93c3cad55c1af7b1ff4ec0b/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/596f9b67da515d69a2de5f09d1dda7e3/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/596f9b67da515d69a2de5f09d1dda7e3/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2d07c9e2c93c3cad55c1af7b1ff4ec0b/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2d07c9e2c93c3cad55c1af7b1ff4ec0b/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:49:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/992cfdb38ff63caa3a4dd6c4861b7d2d/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/992cfdb38ff63caa3a4dd6c4861b7d2d/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/992cfdb38ff63caa3a4dd6c4861b7d2d/AndroidManifest.xml:24:13-58
