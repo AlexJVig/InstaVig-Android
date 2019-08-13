@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-23:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/d55a26ef77ea54bf8c777fd7a362db3a/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2398a7c73282c4c08c8a4d319b3b42e3/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/10ba20cacb4c12feae4457900be0b173/AndroidManifest.xml:2:1-9:12
@@ -50,25 +50,25 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/alexvig/.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/da3b8096fd8b347848b9ce100493c1ff/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/f5359bbe072c153172c3763a46d49d45/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/48e7d44006954d6e2954269053a3aa61/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-23:12
 	package
 		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:3:5-43
 		INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-23:12
 		INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:1-23:12
 		INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:5:5-19:19
+ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:5:5-21:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2398a7c73282c4c08c8a4d319b3b42e3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2398a7c73282c4c08c8a4d319b3b42e3/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/10ba20cacb4c12feae4457900be0b173/AndroidManifest.xml:7:5-20
@@ -127,20 +127,28 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/alex
 		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:11:9-40
-activity#com.example.instavig_android.MainActivity
-ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:12:9-18:20
+activity#com.example.instavig_android.FeedActivity
+ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:12:9-59
 	android:name
 		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:12:19-47
+activity#com.example.instavig_android.RegistrationActivity
+ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:13:9-58
+	android:name
+		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:13:19-55
+activity#com.example.instavig_android.MainActivity
+ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:14:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:18:27-74
 uses-sdk
 INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml
