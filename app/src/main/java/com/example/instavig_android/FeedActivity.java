@@ -15,6 +15,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.storage.FirebaseStorage;
@@ -68,11 +69,9 @@ public class FeedActivity extends AppCompatActivity {
             Uri uri = data.getData();
 
             StorageReference storageRef = FirebaseStorage.getInstance().getReference();
-            StorageReference imagesRef = storageRef.child("images");
-            StorageReference userRef = imagesRef.child(fbUser.getUid());
             String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
             String filename = fbUser.getUid() + "_" + timeStamp;
-            StorageReference fileRef = userRef.child(filename);
+            StorageReference fileRef = storageRef.child("images/" + fbUser.getUid() + "/" + filename + ".jpg");
 
             UploadTask uploadTask = fileRef.putFile(uri);
             uploadTask.addOnFailureListener(new OnFailureListener() {
@@ -84,7 +83,14 @@ public class FeedActivity extends AppCompatActivity {
             }).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                 @Override
                 public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                    Uri downloadUrl = taskSnapshot.getDownloadUrl();
+                    Task<Uri> result = taskSnapshot.getStorage().getDownloadUrl();
+                    result.addOnSuccessListener(new OnSuccessListener<Uri>() {
+                        @Override
+                        public void onSuccess(Uri uri) {
+                            String downloadUrl = uri.toString();
+                            //createNewPost(imageUrl);
+                        }
+                    });
                     Toast.makeText(FeedActivity.this, "Upload finished!", Toast.LENGTH_SHORT).show();
                 }
             });
