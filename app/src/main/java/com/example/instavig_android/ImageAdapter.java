@@ -50,11 +50,24 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ViewHolder> 
     // Replace the contents of a view (invoked by the layout manager)
     @Override
     public void onBindViewHolder(ViewHolder holder, final int position) {
-        final Image image = (Image) mDataset.get(position);
+        final Image image = mDataset.get(position);
         if (image.user != null) {
             holder.mTextView.setText(image.user.displayName);
         }
         Picasso.get().load(image.downloadUrl).into(holder.mImageView);
+
+        holder.mLikeButton.setText("Like (" + image.likes + ")");
+        if(image.hasLiked) {
+            holder.mLikeButton.setBackgroundColor(mActivity.getResources().getColor(R.color.colorAccent));
+        } else {
+            holder.mLikeButton.setBackgroundColor(mActivity.getResources().getColor(R.color.colorPrimary));
+        }
+        holder.mLikeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mActivity.setLiked(image);
+            }
+        });
     }
 
     // Return the size of your dataset (invoked by the layout manager)

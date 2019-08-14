@@ -89,6 +89,47 @@ public class FeedActivity extends AppCompatActivity {
                     }
                 });
 
+                // get image likes
+                Query likesQuery = database.child("likes").orderByChild("imageId").equalTo(image.key);
+                likesQuery.addChildEventListener(new ChildEventListener() {
+                    @Override
+                    public void onChildAdded(DataSnapshot dataSnapshot, String s) {
+                        Like like = dataSnapshot.getValue(Like.class);
+                        image.addLike();
+                        if(like.userId.equals(fbUser.getUid())) {
+                            image.hasLiked = true;
+                            image.userLike = dataSnapshot.getKey();
+                        }
+                        mAdapter.notifyDataSetChanged();
+                    }
+
+                    @Override
+                    public void onChildChanged(DataSnapshot dataSnapshot, String s) {
+
+                    }
+
+                    @Override
+                    public void onChildRemoved(DataSnapshot dataSnapshot) {
+                        Like like = dataSnapshot.getValue(Like.class);
+                        image.removeLike();
+                        if(like.userId.equals(fbUser.getUid())) {
+                            image.hasLiked = false;
+                            image.userLike = null;
+                        }
+                        mAdapter.notifyDataSetChanged();
+                    }
+
+                    @Override
+                    public void onChildMoved(DataSnapshot dataSnapshot, String s) {
+
+                    }
+
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+
+                    }
+                });
+
                 mAdapter.addImage(image);
             }
 
@@ -178,5 +219,22 @@ public class FeedActivity extends AppCompatActivity {
 
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+    }
+
+    public void setLiked(Image image) {
+        if(!image.hasLiked) {
+            // add new Like
+            image.hasLiked = true;
+            Like like = new Like(image.key, fbUser.getUid());
+            String key = database.child("likes").push().getKey();
+            database.child("likes").child(key).setValue(like);
+            image.userLike = key;
+        } else {
+            // remove Like
+            image.hasLiked = false;
+            if (image.userLike != null) {
+                database.child("likes").child(image.userLike).removeValue();
+            }
+        }
     }
 }
