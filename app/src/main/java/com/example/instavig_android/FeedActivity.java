@@ -18,6 +18,8 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
@@ -30,6 +32,7 @@ public class FeedActivity extends AppCompatActivity {
     static final int RC_PERMISSION_READ_EXTERNAL_STORAGE = 1;
     static final int RC_IMAGE_GALLERY = 2;
     FirebaseUser fbUser;
+    DatabaseReference database;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +43,8 @@ public class FeedActivity extends AppCompatActivity {
         if (fbUser == null) {
             finish();
         }
+
+        database = FirebaseDatabase.getInstance().getReference();
     }
 
     public void uploadImage(View view) {
@@ -88,12 +93,23 @@ public class FeedActivity extends AppCompatActivity {
                         @Override
                         public void onSuccess(Uri uri) {
                             String downloadUrl = uri.toString();
-                            //createNewPost(imageUrl);
+
+                            // save image to database
+                            String key = database.child("images").push().getKey();
+                            Image image = new Image(key, fbUser.getUid(), downloadUrl.toString());
+                            database.child("images").child(key).setValue(image);
                         }
                     });
                     Toast.makeText(FeedActivity.this, "Upload finished!", Toast.LENGTH_SHORT).show();
                 }
             });
         }
+    }
+
+    public void signOut(View view) {
+        FirebaseAuth.getInstance().signOut();
+
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 }
