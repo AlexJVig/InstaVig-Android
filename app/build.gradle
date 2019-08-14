@@ -31,6 +31,7 @@ dependencies {
     implementation 'com.firebaseui:firebase-ui-auth:4.3.2'
     implementation 'com.google.firebase:firebase-database:18.0.1'
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'com.google.firebase:firebase-storage:15.0.0'
 }
 
 apply plugin: 'com.google.gms.google-services'

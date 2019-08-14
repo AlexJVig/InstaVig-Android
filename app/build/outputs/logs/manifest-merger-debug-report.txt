@@ -14,6 +14,7 @@ MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/alexvig/.gradle/ca
 MERGED from [com.google.firebase:firebase-auth:18.1.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/5c1843544fe608fdf7d9cc6c37058408/AndroidManifest.xml:17:1-42:12
 MERGED from [com.google.firebase:firebase-database:18.0.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/a627abf82084e1ee5506e23da15d761e/AndroidManifest.xml:15:1-38:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/b49b02e72d0b206a86002d010080fb6d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-storage:15.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/83d1b7408efeca3825ed8cc7dfabf780/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/41dfc23f99b572c20cc642131ab9cbd7/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/e2a7b5e4cd87fbc5e7f2ddfbbd2c0c61/AndroidManifest.xml:17:1-39:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/1da02cc4814a0d5b0934c45b3a44d466/AndroidManifest.xml:2:1-7:12
@@ -25,6 +26,7 @@ MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/alexvig/.gr
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/0a9b2e81489912da77b8fe4a295de925/AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/cc94d2dddb5bc828161d0023a9d8e453/AndroidManifest.xml:2:1-19:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/00027ac253ed3069b44e604c8ebc3174/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-storage-common:15.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2cdd7e4633436e2bae1e55277d68fad6/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:17:1-55:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/b65c6cbdae083d4b54d7977404295be7/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/596f9b67da515d69a2de5f09d1dda7e3/AndroidManifest.xml:17:1-40:12
@@ -84,6 +86,10 @@ INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManif
 		INJECTED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:4:5-80
+	android:name
+		ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:4:22-77
 application
 ADDED from /Users/alexvig/Projects/InstaVig-Android/app/src/main/AndroidManifest.xml:5:5-22:19
 MERGED from [com.firebaseui:firebase-ui-auth:4.3.2] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/64d1363c9484bee724aa7cd474f467b8/AndroidManifest.xml:15:5-107:19
@@ -204,6 +210,8 @@ MERGED from [com.google.firebase:firebase-database:18.0.1] /Users/alexvig/.gradl
 MERGED from [com.google.firebase:firebase-database:18.0.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/a627abf82084e1ee5506e23da15d761e/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/b49b02e72d0b206a86002d010080fb6d/AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/b49b02e72d0b206a86002d010080fb6d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage:15.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/83d1b7408efeca3825ed8cc7dfabf780/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:15.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/83d1b7408efeca3825ed8cc7dfabf780/AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/41dfc23f99b572c20cc642131ab9cbd7/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/41dfc23f99b572c20cc642131ab9cbd7/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/e2a7b5e4cd87fbc5e7f2ddfbbd2c0c61/AndroidManifest.xml:20:5-44
@@ -226,6 +234,8 @@ MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/alexvig/.gradle/
 MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/cc94d2dddb5bc828161d0023a9d8e453/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/00027ac253ed3069b44e604c8ebc3174/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/00027ac253ed3069b44e604c8ebc3174/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage-common:15.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2cdd7e4633436e2bae1e55277d68fad6/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage-common:15.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/2cdd7e4633436e2bae1e55277d68fad6/AndroidManifest.xml:6:5-44
 MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/7908280852fca2e3dcaea145f663435e/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/alexvig/.gradle/caches/transforms-2/files-2.1/b65c6cbdae083d4b54d7977404295be7/AndroidManifest.xml:20:5-44
